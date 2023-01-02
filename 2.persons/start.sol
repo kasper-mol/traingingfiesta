@@ -2,10 +2,9 @@
 pragma solidity ^0.8.0;
 
 contract FavoriteNum {
-    // 1. define a struct called 'Person' to store the name and favorite number of a person
+    // 1. define a struct called 'Person' to store the name and favorite number of a person. Define a mapping below to store a person structied coupled to a address
 
     // In this mapping we use the struct and couple it to a wallet address
-    mapping(address => Person) allPersons;
 
     //  This function will allow people to define their name and favorite number
     function definePerson() public {
